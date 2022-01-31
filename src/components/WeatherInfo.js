@@ -9,7 +9,7 @@ const WeatherInfo = ({data}) => {
   
   return (
 
-      <div className="grid align__item">
+      <div className="container__card">
         <div className="card__info">
             <div className="time">
                 <spand className='time__date'>  <Clock date={''} format={'dddd, MMMM Mo, YYYY'} /></spand>

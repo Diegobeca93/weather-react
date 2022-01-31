@@ -53,9 +53,10 @@
   }
   
   .grid {
-    margin: 30px auto;
-    max-width: 25rem;
+    margin: 30px 50px;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   h2 {

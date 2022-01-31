@@ -1,3 +1,6 @@
+.container__card {
+    margin: 0 50px;
+}
 .card__info {
     background-image: url('../img/illustration-g97b8d14f7_640.png');
     text-align: center;

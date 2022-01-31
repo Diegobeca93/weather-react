@@ -1,0 +1,83 @@
+.card__info {
+    background-image: url('../img/illustration-g97b8d14f7_640.png');
+    text-align: center;
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    width: 350px;
+    height: 500px;
+    position: relative;
+}
+.time {
+    top: 10px;
+    display: flex;
+    right: 0px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 15px;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 11px;
+}
+.time__date{
+    margin: 0 10px;
+    
+}
+.time__clock{
+    margin: 0 10px;
+}
+
+.info-header {
+    min-height: 300px;
+    min-height: 300px;
+    width: 100%;
+    gap: 5rem;
+}   
+
+.city {
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;    
+}
+.Temp {
+    font-size: 4.5rem;
+    position: relative;
+    
+}
+.celsius {
+    font-size: 45px;
+    position: absolute;
+    top: -3px;
+}
+.col-md-4 {
+    margin: auto;
+}
+
+.card-counter {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+}
+.count-numbers {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 500px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding: 0 25px;
+}
+.row {
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 70px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
